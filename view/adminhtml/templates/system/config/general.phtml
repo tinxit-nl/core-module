@@ -1,0 +1,40 @@
+<?php ?>
+
+<div style="margin-bottom:10px;padding:11px 0 0 10px;">
+    <h4>
+        <img src="<?php echo $block->getViewFileUrl('TinxIT_Core::images/logo-tinxit.png') ?>" class="tinx-logo" /><br><br>
+        <div class="tinx-textblock">
+            <p><a class="tinx-green"  target="_blank" href="https://www.tinx-it.com/"><strong>Tinx-IT ERP connector</strong></a></p>
+            <p><?php echo __('For technical support ') ?> <a class="tinx-green"  href="https://support.tinx-it.com" target="_blank">
+                    <?php echo __('Contact Us') ?></a><br>
+                or <?php echo __('email us at') ?> <a class="tinx-green"  href="mailto:support@tinx-it.com" target="_blank">
+                    <?php echo __('support@tinx-it.com') ?></a></p>
+        </div>
+
+    <table class="tinxtable">
+        <col style="width:20%">
+        <col style="width:30%">
+        <tr>
+            <td>Tinx-IT Core: </td>
+            <td>1.0.1</td>
+        </tr>
+        <tr>
+        <tr>
+            <td>Server PHP: </td>
+            <td> <?php echo phpversion();?></td>
+        </tr>
+        <tr>
+            <td>Server date: </td>
+            <td><?php echo date("d-m-Y");?></td>
+        </tr>
+        <tr>
+            <td>Server time: </td>
+            <td><?php echo date("H:i:s");?></td>
+        </tr>
+        <tr>
+            <td>Server timezone: </td>
+            <td><?php echo date_default_timezone_get();?></td>
+        </tr>
+    </table>
+    </h4>
+</div>

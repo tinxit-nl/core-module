@@ -1,0 +1,20 @@
+{
+  "name": "tinxit/module-core",
+  "version": "1.0.0",
+  "description": "Core module for Tinx-IT modules",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "propietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TinxIT\\Core\\": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.tinxit-icon .title:before
+{
+    background: url('../images/icon-tinxit.png') no-repeat;
+    width: 15px;
+    height: 16px;
+    content: '';
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: bottom;
+}
+.tinx-logo {
+    padding-left: 15px;
+}
+
+.tinx-textblock {
+    padding-left: 15px;
+}
+
+.tinx-green {
+    color: #95c11f;
+}
+
+a.tinx-green:hover { color: #00893c;}
+
+.tinxtable {
+    width: 50%;
+    padding: 11px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
